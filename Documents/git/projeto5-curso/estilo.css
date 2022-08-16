@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#principal{
+    width: 90%;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+
+#capa{  
+    
+    width: 65%;
+    height: 250px;
+    background: url('imagens/topo-imagem-principal.png');
+}
+
+#menu{
+    position: relative;
+    bottom: 250px;
+    float: right;
+    background-image: url('imagens/topo-imagem-lateral.png');
+    width: 40%;
+    height: 250px;
+    
+    
+}
+
+#locais{
+    color: #734916;
+    border-top: 2px solid #734916;
+    border-bottom: 2px solid #734916;
+    width: 70%;
+    margin: 15px 100px;
+    padding: 5px;
+    height: 25px;
+
+
+}
+#locais a{
+    color: white;
+    text-decoration: none;
+    background: #734916;
+    border-radius: 2px;
+    display: block;
+   
+    width: 90px;
+    height: 30px;
+    line-height: 1.5em;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 240px;
+    bottom: 22px;
+}
+
+#locais a:hover{
+    color: #41290c;
+}
+
+#navegacao{
+    margin-left: 100px;
+}
+
+#navegacao a{
+    color: #734916;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li{
+    margin: 5px;
+}
+
+#navegacao a:hover{
+    color: white;
+}
+
+#navegacao img{
+    position: relative;
+    bottom: 170px;
+    left: 130px;
+}
+
+#capa img{
+    margin-top: 18px;
+}
+
+#conteudo{
+    margin: 10px;
+    height: 400px;
+}
+
+#area1{
+    
+    position: absolute;
+    width: 42%;
+    padding: 10px;
+    text-align: justify;
+    background: #f2cb9b5d;
+}
+#area2{
+    
+    width: 42%;
+    position: absolute;
+    left: 680px;
+    padding: 10px;
+    background: #f2cb9ba8;
+}
+
+#area2 ul a{
+    text-decoration: none;
+    color: black;
+}
+
+#area2 li {
+    list-style: none;
+    display: block;
+    
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+#area2 li a{
+    display: inline;
+    width: 170px;
+    height: 110px;  
+}
+
+#area2 li:hover{
+    background: #F2CB9B;
+}
+
+#rodape{
+    background: #F29F05;
+    height: 80px;
+    text-align: center;
+    color: white;
+    line-height: 5em;
+}
+
+.clear{
+    clear: both;
+}
+
+.titulo{
+    color: #734916;
+    text-align: center;
+}
+.imagemArea2{
+    width: 170px;
+    height: 110px;
+    float: left;
+    margin-right: 5px;
+}
