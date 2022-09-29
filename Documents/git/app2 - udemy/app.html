@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata mosquito</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/mosquito.png" type="image/x-icon">
+    <script src="jpgp.js"></script>
+</head>
+<body onresize="tamanhoTela()">
+
+
+    <div id="pontuacao">
+        Pontuação: 
+    </div>
+    <div id="painel">
+
+        <div id="vida1"></div>
+        <div id="vida2"></div>
+        <div id="vida3"></div>
+
+        
+        <div id="cronometro">
+            Cronometro: 
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script>
+        var velocidade = 0
+        
+        if(dificuldade=='?facil'){
+            velocidade = 3000
+        }else if (dificuldade == '?normal'){
+            velocidade = 2000
+        } else if (dificuldade == '?dificil'){
+            velocidade = 1000
+        }
+
+        var criaMosca = setInterval(function(){
+            posicaoMosca() 
+        },velocidade)
+    </script>
+    
+</body>
+</html>

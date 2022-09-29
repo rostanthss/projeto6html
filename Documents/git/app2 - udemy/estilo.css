@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    cursor: url('imagens/mata_mosca.png') 30 30, auto;
+}
+
+body{
+    background: url('imagens/bg.jpg') no-repeat;
+    
+}
+
+#mosca{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.tamanhoMosca1{
+
+    width: 50px;
+    height: 50px;
+}
+
+.tamanhoMosca2{
+
+    width: 75px;
+    height: 75px;
+}
+
+.tamanhoMosca3{
+
+    width: 100px;
+    height: 100px;
+}
+
+
+.ladoB{
+    transform: scaleX(-1);
+}
+
+#vida1{
+    background: url('imagens/coracao_cheio.png');
+    float: left;
+    width: 30px;
+    height: 28px;
+    margin: 5px;   
+}
+
+#vida2{
+    background: url('imagens/coracao_cheio.png');
+    float: left;
+    width: 30px;
+    height: 28px;
+    margin: 5px;   
+}
+
+#vida3{
+    background: url('imagens/coracao_cheio.png');
+    float: left;
+    width: 30px;
+    height: 28px;
+    margin: 5px;   
+}
+
+#painel{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    opacity: 0.7;
+    width: 170px;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+#mosca{
+    
+}
+
+#pontuacao{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cronometro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fimGame{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+#vitoria{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+#resultado{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+#recomecar{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background: orange;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px 10px 10px 80px;
+    cursor: pointer;
+    
+}
+
+.botao{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background: orange;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px 10px 10px 80px;
+    cursor: pointer;
+}
+
+#recomecar:hover{
+    background: rgb(255, 177, 32);
+}
+
+#menu{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
